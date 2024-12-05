@@ -20,6 +20,7 @@ coef = round(float(model.coef_[0]), 2)
 intercept = round(float(model.intercept_), 2)
 r_squared = model.score(x, y)
 
+
 # value you are going to predict
 x_predict = 77
 # plug that value into your model

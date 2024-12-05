@@ -15,7 +15,6 @@ plt.scatter(x,y)
 plt.xlabel("Temperature °F")
 plt.ylabel("Chirps per Minute")
 plt.title("Cricket Chirps by Temperature")
-
 # prints the correlation coefficient
 print(f"Correlation between Temperature and Chirps/Min: {x.corr(y)}")
 
